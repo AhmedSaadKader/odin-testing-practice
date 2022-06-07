@@ -1,0 +1,11 @@
+<script>
+  function analyzeArray(arr) {
+    const averageNumber = arr.reduce((a, b) => a + b, 0) / arr.length;
+
+    return {
+      average: averageNumber,
+    };
+  }
+  analyzeArray([1, 2]);
+  console.log(analyzeArray([1, 2]));
+</script>
